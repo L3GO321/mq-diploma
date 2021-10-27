@@ -789,7 +789,6 @@
     
   </footer>
   
-  
   <!-- copyright -->
   <section class="copyright">
     
@@ -803,11 +802,54 @@
     
   </section>
 
-  <section class="popup">
+  <div class="popup-wrapper">
 
-    
+  <div class="back-popup"></div>
+    <section class="popup">
 
-  </section>
+      <h3 class="headline-popup">
+        Ваш фидбек
+      </h3>
 
+      <form class="popup-form">
+
+        <label class="popup-checked">
+
+          <span>Как часто вы заходите на сайт?</span>
+          <input type="text" placeholder="Почти каждый день">
+          
+        </label>
+
+          <span>Вы подписаны на e-mail рассылку?</span>
+          <div class="popup-radio">
+
+          <label class="radio-group" for="yes">
+
+            <input type="radio" class="radio" name="click" value="Да" id="yes" checked>
+            <span class="radio-group-text">Да</span>
+
+          </label>  
+
+          <label class="radio-group" for="no">  
+
+            <input type="radio" class="radio" name="click" value="Нет" id="no">
+            <span class="radio-group-text">Нет</span>
+
+          </label>    
+        </div>
+
+        <label class="popup-content">
+          <span>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+          <textarea placeholder="Может, больше рецептов"></textarea>
+        </label>
+
+        <button class="btn-popup">
+          Отправить
+        </button>
+
+      </form>
+
+    </section>
+  </div>
 </body>
 </html>
