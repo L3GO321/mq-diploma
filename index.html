@@ -661,7 +661,7 @@
           srcset="images/shop-item-tablet2.jpg">
           <source
           media="(max-width: 640px)"
-          srcset="images/shop-item-mobile1.jpg">
+          srcset="images/shop-item-mobile2.jpg">
           <img src="images/shop-item-desk2.jpg" alt="Картинка товаров магазина">
         </picture>
 
@@ -699,7 +699,7 @@
           srcset="images/shop-item-tablet3.jpg">
           <source
           media="(max-width: 640px)"
-          srcset="images/shop-item-mobile1.jpg">
+          srcset="images/shop-item-mobile3.jpg">
           <img src="images/shop-item-desk3.jpg" alt="Картинка товаров магазина">
         </picture>
 
@@ -818,7 +818,11 @@
         <label class="popup-checked">
 
           <span>Как часто вы заходите на сайт?</span>
-          <input type="text" placeholder="Почти каждый день">
+          <select class="popup-label" placeholder="Почти каждый день">
+            <option selected>Почти каждый день</option>  
+            <option>Через день</option> 
+            <option>1 раз в неделю</option> 
+          </select>
           
         </label>
 
@@ -842,7 +846,7 @@
 
         <label class="popup-content">
           <span>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-          <textarea placeholder="Может, больше рецептов"></textarea>
+          <textarea class="popup-label" placeholder="Может, больше рецептов"></textarea>
         </label>
 
         <button class="btn-popup">
