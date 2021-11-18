@@ -172,7 +172,9 @@
       <section class="main-list">
         
         <div class="main-list-item">
-         <img src="images/last-post1.jpg" class="main-list-item-img">
+          <div class="main-img">
+            <img src="images/last-post1.jpg" class="main-list-item-img">
+          </div>
          <div class="main-content">
            <ul class="list-link">
              <li class="link">
@@ -202,11 +204,14 @@
               <p class="text">
                 Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?
               </p>
+              
             </div>
           </div>
         </div>      
         <div class="main-list-item">
-         <img src="images/last-post2.jpg" class="main-list-item-img">
+          <div class="main-img">
+            <img src="images/last-post2.jpg" class="main-list-item-img">
+          </div>
           <div class="main-content">
            <ul class="list-link">
              <li class="link">
@@ -240,7 +245,9 @@
           </div>
         </div>      
         <div class="main-list-item">
-         <img src="images/last-post3.jpg" class="main-list-item-img">
+          <div class="main-img">
+            <img src="images/last-post3.jpg" class="main-list-item-img">
+          </div>
           <div class="main-content">
             <ul class="list-link">
              <li class="link">
@@ -272,7 +279,9 @@
           </div>
         </div>            
         <div class="main-list-item">
-         <img src="images/last-post4.jpg" class="main-list-item-img">
+          <div class="main-img">
+            <img src="images/last-post4.jpg" class="main-list-item-img">
+          </div>
           <div class="main-content">
             <ul class="list-link">
              <li class="link">
@@ -306,7 +315,9 @@
           </div>
         </div>     
         <div class="main-list-item">
-          <img src="images/last-post5.jpg" class="main-list-item-img">  
+          <div class="main-img">
+            <img src="images/last-post5.jpg" class="main-list-item-img"> 
+          </div> 
           <div class="main-content">
             <ul class="list-link">
              <li class="link">
@@ -435,15 +446,15 @@
          
         <form class="btn-form">
           <label class="search-group">
-           <span class="visually-hidden">Что вы ищете?</span>
-          <input type="text" placeholder="Найти..." required class="btn-box">
-            </label>
+            <span class="visually-hidden">Что вы ищете?</span>
+            <input type="text" placeholder="Найти..." required class="btn-box">
+          </label>
             
-            <button type="submit" class="btn-search">
-              <span class="visually-hidden">
-                Поиск
-              </span>
-            </button>
+          <button type="submit" class="btn-search">
+            <span class="visually-hidden">
+              Поиск
+            </span>
+          </button>
               
         </form>
         
@@ -643,7 +654,7 @@
 
           <div class="bottom-block-shop">
             <div class="bottom-price">
-            <span class="old-price"><s>1000&#8381;</s></span>
+            <span class="old-price">1000&#8381;</span>
             <span class="new-price">800&#8381;</span>
             </div>
 
@@ -721,7 +732,7 @@
 
           <div class="bottom-block-shop">
             <div class="bottom-price">
-              <span class="old-price"><s>500&#8381;</s></span>
+              <span class="old-price">500&#8381;</span>
               <span class="new-price">400&#8381;</span>
             </div>
             <div class="btn-shop">
@@ -796,24 +807,25 @@
   
     </ul>  
     
+    <!-- copyright -->
+    <section class="copyright">
+      
+      <a href="#0" class="copyright-link">
+        
+        <p>
+          Copyright © 2009–2019 City Blog LLC.
+        </p>
+        
+      </a>
+      
+    </section>
+
   </footer>
   
-  <!-- copyright -->
-  <section class="copyright">
-    
-      <a href="#0" class="copyright-link">
-      
-      <p>
-        Copyright © 2009–2019 City Blog LLC.
-      </p>
-      
-    </a>
-    
-  </section>
+
 
   <div class="popup-wrapper">
 
-  <div class="back-popup"></div>
     <section class="popup">
 
       <h3 class="headline-popup">
@@ -856,7 +868,7 @@
           <textarea class="popup-label" placeholder="Может, больше рецептов"></textarea>
         </label>
 
-        <button class="btn-popup">
+        <button type="submit" class="btn-popup">
           Отправить
         </button>
 
