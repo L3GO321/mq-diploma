@@ -323,6 +323,7 @@
   .headline {
     position: relative;
     text-align: center;
+    text-transform: uppercase;
     padding-bottom: 13px;
     margin-bottom: 0;
     font-size: 20px;
@@ -337,9 +338,9 @@
     position: relative;
     bottom:0; 
     width: 65px;
-    height:2px;
+    height: 3px;
     
-    margin-top: 14px;
+    margin-top: 12px;
     margin-left: auto;
     margin-right: auto;
     background-color: #b59f5b;
@@ -677,9 +678,9 @@ div a {
     display: block;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 25px; 
-    width: 30px;
-    height: 30px;
+    background-size: 20px; 
+    width: 20px;
+    height: 20px;
   }
   
   .footer-icon_twitter {
@@ -731,8 +732,8 @@ div a {
 
 .popup-wrapper {
   position: fixed;
-  /* display: none; */
-  display: flex;
+  display: none;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   bottom: 0;
@@ -993,7 +994,7 @@ div a {
 
   .headline {
     display: block;
-
+    text-transform: uppercase;
   }
 
   .blog-news {
@@ -1165,7 +1166,7 @@ footer {
 
   .headline {
     display: block;
-
+    text-transform: uppercase;
   }
 
   .new-block {
